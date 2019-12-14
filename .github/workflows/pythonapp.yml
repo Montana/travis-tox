@@ -2,8 +2,9 @@ name: Python application
 
 on: [push]
 
-  build:
   jobs:
+  build:
+  
     runs-on: ubuntu-latest
 
     steps:
